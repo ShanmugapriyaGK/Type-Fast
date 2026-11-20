@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(240, 239, 255);
+    top: 0px;
+    position: sticky;
+    border-bottom: 1px solid rgb(17, 27, 60);
+}
+.navbar .quit{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: "Roboto Slab", serif;
+}
+.navbar .quit a{
+ font-size: 20px;
+text-decoration: none;
+color:  rgb(139, 92, 246);
+display: flex;
+align-items: center;
+ 
+}
+
+.navbar .logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media(max-width:576px){
+    .navbar .menu-2{
+    display: flex;
+
+}
+    .navbar .menu{
+    display: none;
+}
+.navbar .start{
+    display: none;
+}
+}
+.test{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+     background-color: rgb(240, 239, 255);
+}
+.test .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.test .content .firline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.test .content .firline h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Roboto Slab", serif;
+    color: rgb(17, 27, 60);
+}
+.test .content .firline h1 span{
+    color:rgb(139, 92, 246) ;
+}
+.test .content .secline {
+    width: 50%;
+     display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+       font-family: "Roboto Slab", serif;
+    font-size:25px;
+    color: rgb(17, 27, 60);
+}
+.test .content .thrline {
+    width: 50%;
+    font-family: "Roboto Slab", serif;
+    color:rgb(17, 27, 60);
+}
+
+.test .content .forline{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+     
+}
+.test .content .forline .fast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.test .content .forline .start{
+    width: 20%;
+    height: 50px;
+    border: 1px solid rgb(139, 92, 246);
+    border-radius: 30px;
+    background-color: rgb(139, 92, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+   
+}
+.test .content .forline .start a{
+    text-decoration: none;
+     color:rgb(240, 239, 255) ;
+       font-family: "Roboto Slab", serif;
+}
+@media(max-width:1300px){
+    .test .content .secline {
+    width: 80%;
+}
+}
+@media(max-width:1024px){
+ .test .content .thrline {
+    width: 50%;
+}
+.test .content .forline .fast{
+   font-size: 15px;
+}
+
+}
+@media(max-width:800px){
+  .test .content .secline {
+    font-size: 18px;
+}
+.test .content .forline .fast{
+    width: 80%;
+    height: 70px;
+     font-size: 12px;
+}
+.test .content .forline .start{
+    font-size: 16px;
+    width: 30%; 
+}
+.test .content .thrline{
+    width: 80%;
+}
+}
+@media(max-width:580px){
+     .test .content .firline h1{
+    font-size: 40px;
+}
+     .test .content .firline h4{
+    font-size: 15px;
+}
+ .test .content .secline {
+    font-size: 14px;
+}
+.test .content .forline .start{
+    width: 30%;
+    height:40px;
+     font-size: 12px;
+}
+}
+@media(max-width:460px){
+     .test .content .firline h1{
+    font-size: 40px;
+}
+     .test .content .firline h4{
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+}
+
+.test .content .thrline {
+    width: 80%;  
+}
+.test .content .forline{
+   flex-direction: column;
+   height: 40%;
+}
+.test .content .forline .fast{
+ width: 80%;
+    height: 40px;
+     font-size: 12px;
+}
+.test .content .forline .start{
+ width: 40%;
+    height: 40px;
+     font-size: 12px;
+}
+}
+@media(max-width:360px){
+         .test .content .firline h1{
+    font-size: 32px;
+}
+}
